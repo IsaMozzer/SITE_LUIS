@@ -1,0 +1,126 @@
+@font-face {
+      font-family: "fonteamor";
+      src: url("Valentinecute.ttf") format("truetype");
+    }
+
+body{
+     background-color:#07421eb9;
+     text-align: center;
+}
+
+.containertexto {
+  display: flex;
+  justify-content: center; 
+  margin-top: 40px;
+}
+
+h1{
+    font-family: fonteamor;
+  background-color: white;      
+  color: #880e4f;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  display: inline-block;       
+}
+
+
+iframe{
+    width: 100%;
+    
+}
+
+.linha-central {
+  width: 90%;               /* largura da linha */
+  margin: 40px auto 20px;   /* centraliza e dá espaçamento */
+  border: none;
+  height: 2px;
+  background-color: #ccc;   /* cor da linha */
+}
+
+    .slider-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .slider-wrapper {
+      display: flex;
+      transition: transform 0.5s ease;
+      width: 100%;
+    }
+
+    .slide {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .slide img {
+     width: 100%;
+     height: 600px; /* ou qualquer altura que funcione bem */
+     object-fit: cover;
+     border-radius: 10px;
+     display: block;
+    }
+
+
+.nav-btn img {
+  width: 30px;
+  height: 30px;
+  pointer-events: none; /* para evitar que o clique vá na imagem em vez do botão */
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.containertexto{
+  display: flex;
+  justify-content: center; /* Centraliza o bloco na tela */
+  margin-top: 40px;
+}
+
+
+.msgfinal{
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 16px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;        /* Alinha o conteúdo em bloco */
+  max-width: 600px; 
+}
+
+#contador {
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1em;
+  color: #880e4f;
+  text-align: center;
+  margin: 40px auto;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
